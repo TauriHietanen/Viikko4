@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;model.Myynti&apos; to &apos;Asiakas&apos;&#x0D;&#x0A;- Original project: &apos;Viikko4&apos;&#x0D;&#x0A;- Original element: &apos;model.Myynti&apos;&#x0D;&#x0A;- Renamed element: &apos;model.Asiakas&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Myynti&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;model{Myynti.java[Myynti" matchStrategy="1" name="Asiakas" qualified="false" references="true" similarDeclarations="false" stamp="1650898579002" textual="false" version="1.0"/>
+</session>
