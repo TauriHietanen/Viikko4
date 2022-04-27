@@ -20,3 +20,8 @@
 0:0:0:0:0:0:0:1 - - [27/Apr/2022:17:35:11 +0300] "GET /Viikko4/listaaAsiakkaat.jsp HTTP/1.1" 200 1619
 127.0.0.1 - - [27/Apr/2022:17:35:32 +0300] "GET / HTTP/1.1" 404 752
 0:0:0:0:0:0:0:1 - - [27/Apr/2022:17:35:33 +0300] "GET /Viikko4/listaaAsiakkaat.jsp HTTP/1.1" 200 1619
+127.0.0.1 - - [27/Apr/2022:17:38:17 +0300] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [27/Apr/2022:17:38:18 +0300] "GET /Viikko4/WEB-INF/classes/model/dao/Dao.java HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [27/Apr/2022:17:38:25 +0300] "GET /Viikko4/listaaAsiakkaat.jsp HTTP/1.1" 200 1619
+0:0:0:0:0:0:0:1 - - [27/Apr/2022:17:39:12 +0300] "GET /Viikko4/WEB-INF/classes/model/dao/Dao.java HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [27/Apr/2022:17:39:16 +0300] "GET /Viikko4/listaaAsiakkaat.jsp HTTP/1.1" 200 1619
