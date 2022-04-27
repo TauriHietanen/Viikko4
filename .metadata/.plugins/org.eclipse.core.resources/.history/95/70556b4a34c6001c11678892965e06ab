@@ -33,21 +33,18 @@ text-align: right;
 <script> 
 $(document).ready(function() {
 	
+        });	
+    }});
+	
     haeAsiakkaat();
 	$("#hakunappi").click(function) {
 		haeAsiakkaat();
 	});
-	$(document.body).on("keydown", function(event) {
-		if(event.which==13) { // kun painetaan Enetr -näppäintä, ajetaan haku
-			haeAsiakkaat();
-		}
-	});
-	$("#hakusana").focus(); // vie kursorin hakusana-kentän alkuun
 });
 
 function haeAsiakkaat() {
 	$("listaus tbody").empty();
-	$.ajax({url:"asiakkaat/"+$("#hakusana").val(), type:"GET", dataType:"json", success:function(result){//Funktio palauttaa tiedot json-objektina		
+	$.ajax({url:"asiakkaat", type:"GET", dataType:"json", success:function(result){//Funktio palauttaa tiedot json-objektina		
 		$.each(result.asiakkaat, function(i, field){  
         	var htmlStr;
         	htmlStr+="<tr>";
@@ -56,10 +53,7 @@ function haeAsiakkaat() {
         	htmlStr+="<td>"+field.puhelin+"</td>";
         	htmlStr+="<td>"+field.sposti+"</td>";  
         	htmlStr+="</tr>";
-        	$("#listaus tbody").append(htmlStr);   
-        	
-		});	
-    }});
+        	$("#listaus tbody").append(htmlStr);
 }
 
 </script>

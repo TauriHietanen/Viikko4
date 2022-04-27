@@ -37,12 +37,6 @@ $(document).ready(function() {
 	$("#hakunappi").click(function) {
 		haeAsiakkaat();
 	});
-	$(document.body).on("keydown", function(event) {
-		if(event.which==13) { // kun painetaan Enetr -näppäintä, ajetaan haku
-			haeAsiakkaat();
-		}
-	});
-	$("#hakusana").focus(); // vie kursorin hakusana-kentän alkuun
 });
 
 function haeAsiakkaat() {
